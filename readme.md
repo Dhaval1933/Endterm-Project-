@@ -54,32 +54,59 @@ Firestore (real-time database)
 Firebase Analytics
 Project Structure
 splitsmart/
+
 ├── index.html
+
 ├── vite.config.js
+
 ├── package.json
+
 └── src/
+
     ├── main.jsx
+    
     ├── App.jsx
+    
     ├── index.css
+    
     ├── firebase.js
+    
     │
+    
     ├── context/
+    
     │   ├── AuthContext.jsx
+    
     │   └── GroupContext.jsx
+    
     │
+    
     ├── pages/
+    
     │   ├── LoginPage.jsx
+    
     │   ├── DashboardPage.jsx
+    
     │   ├── GroupPage.jsx
+    
     │   └── AddExpensePage.jsx
+    
     │
+    
     ├── components/
+    
     │   ├── AppShell.jsx
+    
     │   ├── Sidebar.jsx
+    
     │   ├── Avatar.jsx
+    
     │   ├── CreateGroupModal.jsx
+    
     │   └── Spinner.jsx
+    
     │
+    
     └── utils/
         └── index.js
 Settlement Logic
